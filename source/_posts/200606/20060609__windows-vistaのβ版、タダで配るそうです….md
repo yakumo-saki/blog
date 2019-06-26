@@ -4,7 +4,7 @@ author: 八雲
 type: post
 date: 2006-06-08T15:23:03+00:00
 url: /2006/06/105
-categories:
+tags:
   - 信On
   - 日記
 

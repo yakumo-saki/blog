@@ -4,7 +4,7 @@ author: 八雲
 type: post
 date: 2016-05-15T15:23:21+00:00
 url: /2016/05/2366
-categories:
+tags:
   - 日記
 
 ---

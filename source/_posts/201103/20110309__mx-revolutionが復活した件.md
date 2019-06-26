@@ -4,7 +4,7 @@ author: 八雲
 type: post
 date: 2011-03-09T05:08:35+00:00
 url: /2011/03/1502
-categories:
+tags:
   - おぼえがき
   - 日記
 

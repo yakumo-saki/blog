@@ -5,7 +5,7 @@ type: post
 date: 2014-03-05T09:01:23+00:00
 draft: true
 url: /?p=2008
-categories:
+tags:
   - 日記
 
 ---

@@ -4,7 +4,7 @@ author: 八雲
 type: post
 date: 2006-05-14T02:44:42+00:00
 url: /2006/05/80
-categories:
+tags:
   - ガジェット関連
   - 日記
 

@@ -4,7 +4,7 @@ author: 八雲
 type: post
 date: 2009-09-16T15:52:28+00:00
 url: /2009/09/1342
-categories:
+tags:
   - Mac
   - 日記
 

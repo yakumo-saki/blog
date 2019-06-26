@@ -4,7 +4,7 @@ author: 八雲
 type: post
 date: 2001-09-24T11:38:08+00:00
 url: /2001/09/399
-categories:
+tags:
   - mh
   - 日記
 

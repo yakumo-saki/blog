@@ -5,7 +5,7 @@ type: post
 date: 2015-01-22T09:01:23+00:00
 draft: true
 url: /2015/01/2131
-categories:
+tags:
   - 日記
 
 ---

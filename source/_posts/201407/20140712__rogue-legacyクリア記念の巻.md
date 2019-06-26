@@ -4,7 +4,7 @@ author: 八雲
 type: post
 date: 2014-07-11T18:25:49+00:00
 url: /2014/07/2069
-categories:
+tags:
   - ゲーム
 
 ---

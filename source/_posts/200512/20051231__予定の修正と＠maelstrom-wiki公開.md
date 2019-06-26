@@ -4,7 +4,7 @@ author: 八雲
 type: post
 date: 2005-12-30T15:19:00+00:00
 url: /2005/12/692
-categories:
+tags:
   - Webサイト作り
   - 日記
 

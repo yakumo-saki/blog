@@ -4,7 +4,7 @@ author: 八雲
 type: post
 date: 2009-08-02T16:59:19+00:00
 url: /2009/08/1327
-categories:
+tags:
   - 日記
 
 ---
