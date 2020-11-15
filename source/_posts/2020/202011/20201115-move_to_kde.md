@@ -61,6 +61,11 @@ https://phabricator.kde.org/T8177
 
 * Latte Dock
 
+## 既知の問題
+
+* vscodeからssh鍵を使ってgithubにpushできない（git: sshaskpass exec... というエラーがでる。ターミナルから `git push` はできる）
+* なんかGlobalmenuのフォントが怪しいような…
+
 ## その他
 
 OverGriveの作者がaurのページであちゃーな書き込みしててげんなり。
