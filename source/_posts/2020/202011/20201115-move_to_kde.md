@@ -61,6 +61,14 @@ https://phabricator.kde.org/T8177
 
 * Latte Dock
 
+## 解決できた問題
+
+問題：chromiumを開くと KDE Wallet がパスワードを要求してくるが、何を入れても通らない
+
+解決策：KWallet Managerから標準で作られている `kdewallet` を使って適当なウォレットを作って、一度 `kdewallet` を削除する。
+その後もう一度 `kdewallet` を作る。暗号方式はbrowfishを選択する。（作成するときにパスワードを聞かれるのでユーザーアカウントのパスワードと一致させる）
+ウォレットの名前を `kdewallet` にしておくのはなんか標準の名前じゃないとだめなパターンがあるみたいなので合わせておいている。
+
 ## 既知の問題
 
 * vscodeからssh鍵を使ってgithubにpushできない（git: sshaskpass exec... というエラーがでる。ターミナルから `git push` はできる）
