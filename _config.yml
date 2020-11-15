@@ -8,7 +8,7 @@ timezone: Japan
 url: 'https://www.ziomatrix.org'
 root: /
 #permalink: ':year:month:day_:title'
-permalink: '/:year/:month/:day/:hash/'
+permalink: '/:year/:month/:day/:name/'
 permalink_defaults: null
 source_dir: source
 public_dir: public
