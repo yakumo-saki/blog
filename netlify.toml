@@ -1,0 +1,11 @@
+[[redirects]]
+# Redirect domain aliases to primary domain
+from = "https://yakumo.dev/*"
+to = "https://d.yakumo.dev/:splat"
+force = true
+
+[[redirects]]
+# Optional: Redirect default Netlify subdomain to primary domain
+from = "https://compassionate-jang-113e3f.netlify.com/*"
+to = "https://d.yakumo.dev/:splat"
+force = true
