@@ -47,3 +47,35 @@ pagination_dir: page
 theme: next
 deploy:
   type: null
+
+#
+# Plugin: hexo-generator-feed
+#
+feed:
+  enable: true
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
+  limit: 20
+  hub:
+  content: true   # content: true -> 全文。 false -> 途中まで
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:  
+
+
+#
+# Plugin: hexo-generator-sitemap
+#
+sitemap:
+  path: sitemap.xml
+  # template: ./sitemap_template.xml
+  rel: false
+  tags: true
+  categories: true
