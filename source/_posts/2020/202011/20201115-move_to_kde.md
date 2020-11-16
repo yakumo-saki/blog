@@ -17,6 +17,8 @@ Gnomeがなんか微妙というか、デザイン的にすごく微妙な感じ
 * トップバーという一等地にあるのに無駄に隙間ばっかり
 
 だけれども、一番の不満はGlobalMenuが使えないことだった。
+追記：GnomeでもGlobalMenu自体は使える模様。ただし、Gnome自体はメニューバーを使わないUIが推奨っぽい。
+標準のアプリケーションはすべてハンバーガーメニューになっている。
 
 ## 移行
 
@@ -69,9 +71,21 @@ https://phabricator.kde.org/T8177
 その後もう一度 `kdewallet` を作る。暗号方式はbrowfishを選択する。（作成するときにパスワードを聞かれるのでユーザーアカウントのパスワードと一致させる）
 ウォレットの名前を `kdewallet` にしておくのはなんか標準の名前じゃないとだめなパターンがあるみたいなので合わせておいている。
 
+問題：vscodeからssh鍵を使ってgithubにpushできない（git: sshaskpass exec... というエラーがでる。ターミナルから `git push` はできる）
+
+解決策：
+
+以下の内容のファイルを `~/.config/plasma-workspace/env/ssh-agent.sh` に作成して
+`chmod +x ~/.config/plasma-workspace/env/ssh-agent.sh` した上で再起動する。
+
+```
+#! /bin/bash
+export SSH_ASKPASS=/usr/bin/ksshaskpass
+/usr/bin/ssh-add
+```
+
 ## 既知の問題
 
-* vscodeからssh鍵を使ってgithubにpushできない（git: sshaskpass exec... というエラーがでる。ターミナルから `git push` はできる）
 * なんかGlobalmenuのフォントが怪しいような…
 
 ## その他
