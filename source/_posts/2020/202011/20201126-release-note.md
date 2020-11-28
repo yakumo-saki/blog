@@ -1,6 +1,6 @@
 ---
-title:  "2020/11/25 Daily Release Note"
-date:   2020-11-25 09:01:23 +0900
+title:  "2020/11/26 Daily Release Note"
+date:   2020-11-26 09:01:23 +0900
 categories:
 	- releasenote
 ---
@@ -36,6 +36,29 @@ categories:
 * ch 37〜39 はBLEのディスカバリと接続の制御用
 * BLE通信ではセントラル(マスタ)とペリフェラルの役割がある
 
+## liveness probe
+
+liveness probe設定してたら、環境変数読まないじゃんかこれぇと思ったら…
+
+```
+liveness:
+  command:
+    - /bin/bash
+    - -c
+    - pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB} -h localhost
+```
+
+って設定したらいった。そりゃそうだ、環境変数の置換はシェルの機能だわ。
+ちなみに、`pg_isready` は存在しないユーザーを指定してもDBが稼働してれば正常終了する。
+ただし、ログに role "root" not found. みたいなのが出てしまってとてもウザい。
+
+## Postgresqlのバージョンアップ
+
+https://github.com/tianon/docker-postgres-upgrade
+
+Dockerにしてしまっていると、バージョンアップが超めんどくさい。
+具体的には、postgresqlの旧バージョンと新バージョンが両方インストールされていなければいけないのと
+データファイルの領域が実使用量の倍必要という…上記のコンテナ使えば少し楽にできそうだが…
 
 ## リングフィット
 
