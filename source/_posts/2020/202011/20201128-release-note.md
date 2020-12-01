@@ -12,16 +12,35 @@ categories:
 
 今日は工事
 
-## Radeon
+## Radeon RX560
 
-Linuxドライバamdgpuが安定しているらしいというのと、作業用PCに挿している
-GeForce GTX1060をゲームPCに戻したいので適当なグラボが欲しくなってきた。
-nvidia-smiによると、VRAM 2GB以上使用しているので最低でも4GBのVRAMがあるやつ。
-で探した所RX560がよさそう（やすいし）
+RX560の中古を入手した。（7000円）
+その後、RX580余ってるというお話があって正直涙目になった。
+で、導入してみた結果… なんか表示がなめらかな気がする。
+とても普通に動いている。ハマったのは…
+
+* nvidia-settings で設定した /etc/X11/xorg.conf の設定は全部消す
+* amdgpu.dc=1 をカーネルコマンドラインに追加
+* /etc/X11/xorg.conf.d/20-amdgpu.conf に以下を記述。TearFreeを書かないとFirefoxのタブバーにマウスカーソルがあるとちらつく。
+
+```
+Section "Device"
+        Identifier "AMD"
+        Driver "amdgpu"
+        Option "TearFree" "true"
+EndSection
+```
+
+2020/11/29 このTearFree True の行を書くとフリーズしたりするのでやめた。
+
+## TTGO T-Display
+
+TFT-eSPIライブラリの設定方法がいまいちというか、ヘッダファイル書き換えろ。ってなっていて
+ものすごく嫌な感じなので他のライブラリを試しているが、全然動かない。こまった。
 
 ## リングフィット
 
-* 休み。なんか工事のせいでタイミングつかめない
+* 22分もやった。超がんばった。
 
 # TODO 
 
