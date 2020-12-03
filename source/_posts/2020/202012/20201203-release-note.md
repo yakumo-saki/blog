@@ -13,6 +13,17 @@ categories:
 まだ乾燥中 again。雨かわからないけれどもベランダが濡れてしまっているので
 1日延長、本当なら今日取り込んでいいはずなんだけれども明日にする。
 
+## lambrollのaurパッケージ
+
+ついに意を決してsubmitというかpushした。twitterでつぶやいたら、作者さんがいいねしてくれたので
+とりあえず、おうおう、何勝手にパッケージ作っとんじゃいという怒られは発生しなかった。よかった。
+（AURのパッケージはソースもバイナリも一切含まなくて、インストール手順とかパッチだけが入ってるので
+　怒られは発生しないのだけれども、overgrive https://aur.archlinux.org/packages/overgrive/ みたいな
+　意味のわからないクレームは発生しているので）
+
+https://aur.archlinux.org/packages/lambroll-bin/ 初aurパッケージ
+
+
 ## kubernetes with cri-o
 
 kubernetesでdockerが非推奨になる（といってもサポートから外れるのは2021年末だし、まだ慌てる必要はない）
