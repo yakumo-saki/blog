@@ -1,6 +1,6 @@
 ---
-title:  "2020/12/09 Daily Release Note"
-date:   2020-12-09 09:01:23 +0900
+title:  "2020/12/10 Daily Release Note"
+date:   2020-12-10 09:01:23 +0900
 categories:
 	- releasenote
 ---
