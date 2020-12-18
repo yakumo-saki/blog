@@ -31,4 +31,4 @@ http://forum.xda-developers.com/viewtopic.php?t=45084
   
 とりあえず、標準の日付表示より全然良いですよ。これ＾＾
 
- [1]: http://www.ziomatrix.org/wp-content/2006/05/SCRN0001.png
+ [1]: //www.ziomatrix.org/wp-content/2006/05/SCRN0001.png
