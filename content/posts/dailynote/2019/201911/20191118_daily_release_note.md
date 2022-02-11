@@ -3,7 +3,7 @@ layout: post
 title:  "2019/11/18 Daily Release Note"
 date:   2019-11-18 09:01:23 +0900
 categories:
-	- releasenote
+    - releasenote
 ---
 
 ## エージェントと話した。

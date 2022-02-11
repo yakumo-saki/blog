@@ -2,7 +2,7 @@
 title:  "2020/11/23 Daily Release Note"
 date:   2020-11-23 09:01:23 +0900
 categories:
-	- releasenote
+    - releasenote
 ---
 # 起きたこと
 

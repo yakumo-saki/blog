@@ -2,7 +2,7 @@
 title:  "2020/10/24 Daily Release Note"
 date:   2020-10-24 09:01:23 +0900
 categories:
-	- releasenote
+    - releasenote
 ---
 
 # 起きたこと
