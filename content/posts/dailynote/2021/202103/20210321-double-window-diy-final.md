@@ -2,7 +2,7 @@
 layout: post
 title: "DIY内窓の話 FINAL"
 date: "2021-03-21 05:39:00 +0900"
-categories: 
+tags: 
   - blog
   - 内窓DIY
 ---
