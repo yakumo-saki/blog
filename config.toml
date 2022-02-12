@@ -1,9 +1,7 @@
 title = "八雲雑記帳"
-baseURL = "https://example.com"
+baseURL = "https://www.ziomatrix.org"
 theme = "m10c"
-avatar = "https://www.gravatar.com/avatar/427e55c07792521acb389ac9f5153e5e.jpg"
 paginate = 8
-
 
 [params]
   author = "Yakumo Saki"
