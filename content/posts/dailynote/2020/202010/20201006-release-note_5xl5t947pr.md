@@ -1,8 +1,8 @@
 ---
 title:  "2020/10/06 Release Note"
 date:   2020-10-06 09:01:23 +0900
-categories:
-    - releasenote
+tags:
+  - releasenote
 ---
 
 # お気持ち

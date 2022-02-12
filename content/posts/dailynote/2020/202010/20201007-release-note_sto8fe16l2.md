@@ -1,8 +1,8 @@
 ---
 title:  "2020/10/07 Daily Release Note"
 date:   2020-10-07 09:01:23 +0900
-categories:
-    - releasenote
+tags:
+  - releasenote
 ---
 
 # お気持ち
@@ -31,9 +31,9 @@ show variable like 'char%'; で表示されるものはすべてutf8mb4に変更
 一応起動オプションにも追加しておいた。
 ```
           args:
-            - "--character-set-server=utf8mb4"
-            - "--collation-server=utf8mb4_unicode_ci"
-            - "--character-set-client=utf8mb4"
+          - "--character-set-server=utf8mb4"
+          - "--collation-server=utf8mb4_unicode_ci"
+          - "--character-set-client=utf8mb4"
 ```
 
 ```

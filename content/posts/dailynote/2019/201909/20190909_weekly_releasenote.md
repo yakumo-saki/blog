@@ -2,8 +2,8 @@
 layout: post
 title:  "2019/09/09 Week Release Note"
 date:   2019-09-09 09:01:23 +0900
-categories:
-    - releasenote
+tags:
+  - releasenote
 ---
 # 雑感
 

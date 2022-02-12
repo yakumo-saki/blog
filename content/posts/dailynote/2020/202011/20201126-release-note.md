@@ -1,8 +1,8 @@
 ---
 title:  "2020/11/26 Daily Release Note"
 date:   2020-11-26 09:01:23 +0900
-categories:
-    - releasenote
+tags:
+  - releasenote
 ---
 # 起きたこと
 
@@ -43,9 +43,9 @@ liveness probe設定してたら、環境変数読まないじゃんかこれぇ
 ```
 liveness:
   command:
-    - /bin/bash
-    - -c
-    - pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB} -h localhost
+  - /bin/bash
+  - -c
+  - pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB} -h localhost
 ```
 
 って設定したらいった。そりゃそうだ、環境変数の置換はシェルの機能だわ。

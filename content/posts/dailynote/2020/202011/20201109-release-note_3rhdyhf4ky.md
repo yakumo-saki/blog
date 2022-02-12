@@ -1,8 +1,8 @@
 ---
 title:  "2020/11/09 Daily Release Note"
 date:   2020-11-09 09:01:23 +0900
-categories:
-    - releasenote
+tags:
+  - releasenote
 ---
 
 # 起きたこと
@@ -51,9 +51,9 @@ services:
     environment:
       POSTGRES_PASSWORD: example
     ports:
-      - "5432:5432"
+    - "5432:5432"
     volumes:
-      - ./postgres_data:/var/lib/postgresql/data
+    - ./postgres_data:/var/lib/postgresql/data
 ```
 
 ## サーバー証明書の更新をJenkins化

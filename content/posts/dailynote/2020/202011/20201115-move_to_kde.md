@@ -1,8 +1,8 @@
 ---
 title:  "GnomeからKDEに移行した"
 date:   2020-11-15 09:01:23 +0900
-categories:
-    - 日記
+tags:
+  - 日記
 ---
 
 # 移行について

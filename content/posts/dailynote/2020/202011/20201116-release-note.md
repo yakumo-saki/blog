@@ -1,8 +1,8 @@
 ---
 title:  "2020/11/16 Daily Release Note"
 date:   2020-11-16 09:01:23 +0900
-categories:
-    - releasenote
+tags:
+  - releasenote
 ---
 # 起きたこと
 
