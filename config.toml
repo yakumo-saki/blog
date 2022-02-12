@@ -7,7 +7,8 @@ paginate = 8
   author = "Yakumo Saki"
   description = "ただの日記帳"
   menu_item_separator = " - "
-  avatar = "https://www.gravatar.com/avatar/427e55c07792521acb389ac9f5153e5e.jpg"
+  #avatar = "https://www.gravatar.com/avatar/427e55c07792521acb389ac9f5153e5e.jpg"
+  avatar = "./images/avatar.png"
 
 [[params.social]]
   icon = "github"
