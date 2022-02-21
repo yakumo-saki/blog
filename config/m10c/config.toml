@@ -1,0 +1,44 @@
+title = "八雲雑記帳"
+baseURL = "https://www.ziomatrix.org"
+theme = "period"
+paginate = 15
+
+[params]
+  author = "Yakumo Saki"
+  description = "ただの日記帳"
+  menu_item_separator = " - "
+  #avatar = "https://www.gravatar.com/avatar/427e55c07792521acb389ac9f5153e5e.jpg"
+  avatar = "./images/avatar.png"
+
+[[params.social]]
+  icon = "github"
+  name = "My Github"
+  url = "https://github.com/yakumo-saki"
+
+
+# Default theme
+#[params.style]
+#  darkestColor = "#242930"
+#  darkColor = "#353b43"
+#  lightColor = "#afbac4"
+#  lightestColor = "#ffffff"
+#  primaryColor = "#57cc8a"
+
+# Green theme
+[params.style]
+  darkestColor = "#315659"
+  darkColor = "#253031"
+#  lightColor = "#96a879"
+#  lightColor = "#b6c899"
+  lightestColor = "#eee"
+  lightColor = "#efeae4"
+#  primaryColor = "#dad865"
+  primaryColor = "#47c68a"
+
+# Red theme
+#[params.style]
+#  darkestColor = "#d35050"
+#  darkColor = "#212121"
+#  lightColor = "#d6d6d6"
+#  lightestColor = "#d3d3d3"
+#  primaryColor = "#ffffff"

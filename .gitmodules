@@ -1,6 +1,0 @@
-[submodule "themes/hugo-clarity"]
-	path = themes/hugo-clarity
-	url = https://github.com/chipzoller/hugo-clarity
-[submodule "themes/period"]
-	path = themes/period
-	url = https://github.com/idoubi/hugo-theme-period.git
