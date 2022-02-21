@@ -1,8 +1,8 @@
-baseurl: https://example.com
+baseurl: https://www.ziomatrix.org
 languageCode: ja
 theme: hugo-theme-stack
 paginate: 7
-title: Example Site
+title: 八雲雑記帳
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -31,15 +31,17 @@ params:
 
     footer:
         since: 2000
-        customText:
+        customText: "Yakumo Saki"
 
     dateFormat:
-        published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006 15:04 MST
+        #published: Jan 02, 2006
+        published: 2006/01/02 15:04 JST
+        #lastUpdated: Jan 02, 2006 15:04 MST
+        lastUpdated: 2006/01/02 15:04 JST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 
+        subtitle: ただの日記帳。本当に日々の記録（とたまに真面目な日記）
         avatar:
             enabled: true
             local: true
@@ -146,7 +148,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site:
+            site: maoh_nol
 
             # Available values: summary, summary_large_image
             card: summary_large_image
@@ -187,13 +189,14 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          #url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/yakumo-saki
           params:
               icon: brand-github
 
         - identifier: twitter
           name: Twitter
-          url: https://twitter.com
+          url: https://twitter.com/maoh_nol
           params:
               icon: brand-twitter
 
