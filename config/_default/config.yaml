@@ -200,6 +200,18 @@ menu:
           params:
               icon: brand-twitter
 
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com/maoh_nol
+          params:
+              icon: brand-twitter
+
+        - identifier: zenn
+          name: zenn
+          url: https://zenn.dev/yakumo
+          params:
+            icon: brand-zwift
+
 related:
     includeNewer: true
     threshold: 60
