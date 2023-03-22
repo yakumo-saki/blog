@@ -40,7 +40,7 @@ params:
         lastUpdated: 2006/01/02 15:04:05 JST
 
     sidebar:
-        emoji: 
+        emoji:
         subtitle: ただの日記帳。本当に日々の記録（とたまに真面目な日記）
         avatar:
             enabled: true
@@ -234,3 +234,21 @@ markup:
         lineNos: true
         lineNumbersInTable: true
         tabWidth: 4
+
+frontmatter:
+    date:
+        - date
+        - publishDate
+        - created
+        - lastmod
+    expiryDate:
+        - expiryDate
+    lastmod:
+        - :git
+        - lastmod
+        - updated
+        - date
+        - publishDate
+    publishDate:
+        - publishDate
+        - date
