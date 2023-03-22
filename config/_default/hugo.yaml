@@ -237,18 +237,19 @@ markup:
 
 frontmatter:
     date:
+        - created
         - date
         - publishDate
-        - created
         - lastmod
     expiryDate:
         - expiryDate
     lastmod:
         - :git
-        - lastmod
         - updated
+        - lastmod
         - date
         - publishDate
     publishDate:
         - publishDate
+        - created
         - date
