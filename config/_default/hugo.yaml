@@ -1,14 +1,14 @@
 baseurl: https://www.ziomatrix.org
 languageCode: ja
 theme: hugo-theme-stack
-paginate: 7
+paginate: 15
 title: 八雲雑記帳
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
 
 # GA Tracking ID
-googleAnalytics:
+# googleAnalytics:
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk
@@ -212,16 +212,17 @@ related:
     toLower: false
     indices:
         - name: tags
-          weight: 50
+          weight: "50"
 
         - name: categories
-          weight: 60
+          weight: "60"
 
 markup:
     goldmark:
         renderer:
             ## Set to true if you have HTML content inside Markdown
             unsafe: true
+            hardWraps: true
     tableOfContents:
         endLevel: 3
         ordered: true
@@ -253,3 +254,4 @@ frontmatter:
         - publishDate
         - created
         - date
+
