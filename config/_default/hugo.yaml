@@ -19,8 +19,8 @@ DefaultContentLanguage: ja
 hasCJKLanguage: true
 
 permalinks:
-    post: /p/:slug/
-    page: /:slug/
+    post: /post/:slug/
+    page: /page/:slug/
 
 params:
     mainSections:
