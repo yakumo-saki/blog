@@ -1,0 +1,138 @@
+---
+title: "続かない日記。"
+date: "2023-05-21T12:25:00.000Z"
+lastmod: "2023-05-28T15:54:00.000Z"
+draft: false
+series: []
+authors: []
+tags: []
+categories: []
+created: "2004-12-15"
+NOTION_METADATA:
+  object: "page"
+  id: "ef83ff2d-4c31-422f-af87-cbb1fc0ed8c7"
+  created_time: "2023-05-21T12:25:00.000Z"
+  last_edited_time: "2023-05-28T15:54:00.000Z"
+  created_by:
+    object: "user"
+    id: "c443eb63-11a7-4629-b15e-c6ad918b79a0"
+  last_edited_by:
+    object: "user"
+    id: "1219c5ae-11d8-48ce-aec6-d385ae29af49"
+  cover: null
+  icon: null
+  parent:
+    type: "database_id"
+    database_id: "9dbcf20b-4d97-4d69-98ba-8ae9c8c1f58d"
+  archived: false
+  properties:
+    series:
+      id: "B%3C%3FS"
+      type: "multi_select"
+      multi_select: []
+    draft:
+      id: "JiWU"
+      type: "checkbox"
+      checkbox: false
+    authors:
+      id: "bK%3B%5B"
+      type: "people"
+      people:
+        - object: "user"
+          id: "c443eb63-11a7-4629-b15e-c6ad918b79a0"
+          name: "Saki Yakumo"
+          avatar_url: "https://s3-us-west-2.amazonaws.com/public.notion-static.com/3ad1c4\
+            97-61e1-48f1-85e8-6acf4c4fdb2d/maoh_icon_twitter_400x400.png"
+          type: "person"
+          person:
+            email: "marqut@ziomatrix.org"
+    tags:
+      id: "jw%7CC"
+      type: "multi_select"
+      multi_select: []
+    categories:
+      id: "nbY%3F"
+      type: "multi_select"
+      multi_select: []
+    created:
+      id: "vmFr"
+      type: "date"
+      date:
+        start: "2004-12-15"
+        end: null
+        time_zone: null
+    summary:
+      id: "x%3AlD"
+      type: "rich_text"
+      rich_text: []
+    Name:
+      id: "title"
+      type: "title"
+      title:
+        - type: "text"
+          text:
+            content: "続かない日記。"
+            link: null
+          annotations:
+            bold: false
+            italic: false
+            strikethrough: false
+            underline: false
+            code: false
+            color: "default"
+          plain_text: "続かない日記。"
+          href: null
+  url: "https://www.notion.so/ef83ff2d4c31422faf87cbb1fc0ed8c7"
+UPDATE_TIME: "2023-05-28T17:53:04.746Z"
+
+---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css" integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+
+
+http://www.yomiuri.co.jp/komachi/juku/ju04121401.htm
+
+
+とりあえず、メモ風に書けばいいらしい。
+
+
+…あれ、それはWikiというのでは＾＾；
+
+
+確かに、メモレベルで書きたいことは結構あるんだけど、まとまった文章に
+
+
+まとめるとなると… っていうのがいくらか。
+
+
+ついでに、コレは書いちゃって良いの？と自粛な話がまたちょびっと。
+
+
+…ここに書く分には自粛必要無いと思ってはいるんだけど、時期が時期だけに
+
+
+ちと…もう少し間が空いたら書こうかと。
+
+
+しかし、新しい掲示板スクリプトを書きたいなぁとは思うものの、
+
+
+サーバーがない… Javaやめて、ASPで妥協しようかな…そしたら楽に安く
+
+
+借りられるし… 決断の期限は２５日。
+
+
+なぜなら、現　ziomatrix.orgのサーバーがそこで期限切れだから。
+
+
+とは言っても、この前みたいにずら…
+
+
+あ！ずらch止まっちゃうじゃんか。 やっぱ25日までに決めて移行しなきゃダメか。
+
+
+よし、こうなったら役所でサーバー屋選びしよう…
+
+
+＃おい、仕事しろよ（笑）
+
